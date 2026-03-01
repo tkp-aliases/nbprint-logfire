@@ -141,14 +141,12 @@ js/node_modules
 js/test-results
 js/playwright-report
 js/*.tgz
-nbprint_logfire/extension
 
 # Jupyter
 .ipynb_checkpoints
 .autoversion
 Untitled*.ipynb
-!nbprint_logfire/extension/nbprint_logfire.json
-!nbprint_logfire/extension/install.json
+nbprint_logfire/extension
 nbprint_logfire/nbextension
 nbprint_logfire/labextension
 
@@ -157,3 +155,7 @@ nbprint_logfire/labextension
 
 # Rust
 target
+
+# Hydra
+outputs/
+multirun/
