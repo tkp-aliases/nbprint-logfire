@@ -1,4 +1,4 @@
-from nbprint_logfire import *  # noqa
+from nbprint_logfire import *
 
 
 def test_all():
